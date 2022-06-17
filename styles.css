@@ -17,6 +17,7 @@ p {
 button {
     color: white;
     background-color: #025157;
+    border-radius: 15pt;
 }
 
 li {
@@ -28,12 +29,10 @@ li {
     /*margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;*/
-    margin: 40px 20px;
+    margin: 30px 20px;
     font-size: 0;
     font-family: sans-serif;
 }
-
-
 
 .header>* {
     display: inline-block;
@@ -41,6 +40,13 @@ li {
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFBF7;
 }
 
 .logo {
@@ -87,6 +93,40 @@ li {
 }
 
 .main {
-    margin-top: 140px;
+    margin-top: 215px;
     text-align: center;
+}
+.publish{
+    margin-left: 30px;
+}
+.publish h2{
+    color: #025157;
+    font-size: 40px;
+    font-family: 'Alegreya';
+}
+.publish > p{
+    color: #343434;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.publish > form p {
+    font-size: smaller;
+}
+input{
+    color: rgb(175, 175, 153);
+    border-radius: 5pt;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video>img{
+    margin-top: 2%;
+    width: 15%;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
 }
