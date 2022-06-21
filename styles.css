@@ -8,7 +8,7 @@ h1 {
     font-family: 'Alegreya';
 }
 
-p {
+.main > p {
     color: #8b8b8bcc;
     font-family: Verdana;
     font-size: 20px;
@@ -29,7 +29,7 @@ li {
     /*margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;*/
-    margin: 30px 20px;
+    margin: 5px 20px 30px 20px;
     font-size: 0;
     font-family: sans-serif;
 }
@@ -40,6 +40,7 @@ li {
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+    
 }
 .fixed-header{
     position: fixed;
@@ -47,14 +48,14 @@ li {
     left: 0;
     right: 0;
     background-color: #FFFBF7;
+    align-items: stretch;
 }
 
-.logo {
-    width: 15%;
+.centrar{
+    width: 85%;
 }
-
-.logo>img {
-    width: 15%;
+.logo{
+    width: 10%;
 }
 
 .navbar {
@@ -99,17 +100,18 @@ li {
 .publish{
     margin-left: 30px;
 }
-.publish h2{
+.subtitulo{
     color: #025157;
     font-size: 40px;
     font-family: 'Alegreya';
 }
-.publish > p{
+p{
     color: #343434;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.publish > form p {
+.nota {
     font-size: smaller;
+    color: #A2A3A6;
 }
 input{
     color: rgb(175, 175, 153);
@@ -126,7 +128,49 @@ input{
 }
 .promo{
     display: flex;
-    width: 70%;
+    width: 90%;
     margin: 100px auto;
     align-items: center;
+}
+
+.growing{
+    display: flex;
+    background-color: #A1D683;
+    flex-direction: row;
+    align-items: space-between;
+    width: 90%;
+    padding: 3%;
+    justify-content: space-between;
+}
+.growing > *{
+    width: 48%;
+    /*Darle más tamaño al texto
+}
+.text{
+    background-color: aqua;*/
+}
+.text > p,h2{
+    margin: 3%;
+}
+.text,.carrusel > button{
+    width: 35%;
+    height:8%;
+    margin:1% 5%;
+}
+.text > img{
+    width: 80%;
+    margin: 5%;
+}
+.carrusel{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3%;
+}
+.carrusel *{
+    margin-left: 3%;
+}
+.carrusel >img{
+    width: 95%
 }
