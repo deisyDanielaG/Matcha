@@ -93,4 +93,8 @@ Fuentes
     color: gray;
 }
 
+.texto-boton:hover{
+    background-color: #6CB54B;
+}
+
 /*# sourceMappingURL=output.css.map */
