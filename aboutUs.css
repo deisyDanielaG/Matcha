@@ -1,0 +1,118 @@
+.top-features {
+    margin-top: 100px;
+    text-align: center;
+    padding: 30px 0 65px;
+}
+
+.section-title {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-title h1 {
+    color: #025157;
+    font-size: 70px;
+    font-family: 'Alegreya', serif;
+    font-weight: 700;
+}
+
+.section-title p {
+    color: #5F5F5F;
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.feature__img img {
+    width: 100%;
+}
+
+.feature__title__anchor {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.feature__title__anchor .feature__title {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 35px;
+    text-decoration: none;
+    text-shadow: #025157 1px 1px 2px;
+    transition: color 0.3s ease-in-out;
+    transition: font-size 3s;
+}
+
+.feature__title__anchor .feature__title:hover {
+    color: #67b54b;
+    font-size: 30px;
+}
+
+.feature__cont p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5F5F5F;
+}
+
+.flecha {
+    margin: 15px auto;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 35px;
+}
+
+.flecha .flecha-contenedor {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 65px;
+}
+
+.flecha .flecha-contenedor .flecha-animada {
+    position: absolute;
+    animation-name: up-and-down, left-to-right;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    height: 130px;
+    width: 130px;
+}
+
+.flecha .flecha-contenedor .flecha-animada img {
+    width: 130px;
+    transform: rotate(-90deg);
+}
+
+@keyframes left-to-right {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 300px;
+    }
+}
+
+@keyframes up-and-down {
+    0% {
+        top: 0;
+    }
+
+    25% {
+        top: -30px;
+    }
+
+    50% {
+        top: -60px;
+    }
+
+    75% {
+        top: -30px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
